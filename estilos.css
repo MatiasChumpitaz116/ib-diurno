@@ -32,3 +32,32 @@ a:hover{
     color: rgb(17, 143, 143);
     background: #afaeae;
 }
+
+.cuerpo{
+    border: 1px solid blue;
+}
+
+#perfil{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+
+}
+
+img{
+    border: 1px solid green;
+    width: 70px;
+    border-radius: 50%;
+    background: blue;
+}
+
+span{
+    border: 2px solid green;
+    /* padding: 10px; */
+    padding: 7px 15px;
+    /*padding: 5px 15px 40px 100px*/
+    
+    border-radius: 1.5rem;
+}
